@@ -1,4 +1,7 @@
 h1{
     height: 100px;
-    background-color: linear-gradient(to right(red,#ff6700));
+    background: linear-gradient(to right,red,#ff6700);
+    text-align: center;
+    line-height: 100px;
+    color: #fff;
 }
