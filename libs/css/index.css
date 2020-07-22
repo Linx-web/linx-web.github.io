@@ -3,14 +3,16 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #000;
+    background:linear-gradient(90deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+    background-size: 400%;
+    animation: btn 20s linear infinite;
 }
 
 .box {
     position: relative;
     width: 400px;
     height: 550px;
-    background-color: rgba(255, 255, 255, .3);
+    background-color: rgba(255, 255, 255, .5);
     border-radius: 20px;
     color: #fff;
     overflow: hidden;
